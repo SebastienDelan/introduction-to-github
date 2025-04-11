@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sebastien Delan - Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+            margin-bottom: 0.5em;
+            font-weight: 700;
+        }
+        h1 {
+            font-size: 2.5em;
+        }
+        h2 {
+            font-size: 2em;
+        }
+        h3 {
+            font-size: 1.5em;
+        }
+        p {
+            margin-bottom: 1em;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+            margin-bottom: 1em;
+        }
+        ul li::before {
+            content: '•';
+            color: #3498db;
+            margin-right: 10px;
+        }
+        ul li {
+            margin-bottom: 0.5em;
+        }
+       .section{
+            margin-bottom: 2em;
+        }
+
+        .experience-item {
+            margin-bottom: 1.5em;
+        }
+        .date {
+            font-style: italic;
+            color: #7f8c8d;
+            margin-bottom: 0.5em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sebastien Delan</h1>
+        <p>723 Rose Dr, Benicia, CA, 94510 | (619) 252-4788 | <a href="mailto:cybersecurity@sebastiendelan.com">cybersecurity@sebastiendelan.com</a></p>
+        <p><a href="www.linkedin.com/in/sebastien-delan">LinkedIn</a> | <a href="www.portfolio.sebastiendelan.com">Portfolio</a></p>
+
+        <section class="section">
+            <h2>Summary</h2>
+            <p>Driven security analyst with a passion for securing complex asset ecosystems, leveraging skills in network analysis, incident response, and compliance. Eager to apply my growing knowledge of cybersecurity asset management and cloud security in an entry-level role, while completing the Google Cloud Cybersecurity Professional certification.</p>
+        </section>
+
+        <section class="section">
+            <h2>Skills</h2>
+            <h3>Network Security:</h3>
+            <ul>
+                <li>Wireshark</li>
+                <li>TCPDump</li>
+                <li>Network Protocol Analysis</li>
+                <li>Security Hardening</li>
+            </ul>
+            <h3>Security Concepts:</h3>
+             <ul>
+                <li>Threat Analysis</li>
+                <li>Vulnerability Assessment</li>
+                <li>Risk Management</li>
+                <li>Incident Response</li>
+                <li>Security Frameworks (NIST, ISO 27001)</li>
+                <li>Security Controls</li>
+            </ul>
+
+            <h3>Scripting/Programming:</h3>
+            <ul>
+              <li>Python</li>
+            </ul>
+
+            <h3>Operating Systems:</h3>
+            <ul>
+              <li>Linux Command Line</li>
+            </ul>
+
+            <h3>Databases</h3>
+            <ul>
+              <li>SQL</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Google Cloud Cybersecurity Professional Certificate (Expected June 2025)</li>
+                <li>Google Cybersecurity Certificate (February 2025)</li>
+                <li>FEMA National Incident Management System (NIMS) ICS-100 (March 2025)</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <h3>Network Traffic Analysis with Wireshark</h3>
+                <p>Conducted packet captures and analyzed network traffic to identify anomalous patterns and potential security vulnerabilities. Documented findings and potential mitigation strategies.</p>
+            </div>
+            <div class="project-item">
+                <h3>Python Network Logging Tool</h3>
+                <p>Developed a Python script using TCPDump to capture and log network traffic, enabling real-time security monitoring and incident response.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Experience</h2>
+            <div class="experience-item">
+                <h3>Mastercard Cybersecurity Virtual Experience Program (Forage) | March 2025</h3>
+                <ul>
+                    <li>Simulated a security analyst role within Mastercard's Security Awareness Team, identifying and reporting phishing threats.</li>
+                    <li>Analyzed business areas to recommend and implement targeted security training and procedures.</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Seb’s Panini, San Diego - Owner | July 2007 - March 2020</h3>
+                 <ul>
+                    <li>Implemented and enforced risk management and compliance procedures (HACCP).</li>
+                    <li>Managed operational security aspects of logistics and distribution.</li>
+                    <li>Developed and delivered employee training programs, demonstrating skills in security awareness principles.</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Primary Caregiver and Household Manager | April 2020 - October 2024</h3>
+                <ul>
+                    <li>Managed and responded to unpredictable "incidents," requiring rapid assessment, containment, and mitigation.</li>
+                    <li>Proactively identified and addressed potential hazards to ensure a secure environment.</li>
+                    <li>Demonstrated adaptability and problem-solving skills in dynamic situations.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Education</h2>
+            <p><strong>Law and Politics Science University Aix-Marseille, France | Legal Studies | 1998-1999</strong></p>
+             <ul>
+                 <li>Developed analytical, research, and critical thinking skills.</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
